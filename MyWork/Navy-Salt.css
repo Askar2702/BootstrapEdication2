@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/*Navbar*/
+
+#header .Logo-nav {
+  padding-left: 30px;
+  padding-top: 100px;
+  width: 220px;
+  height: 220px;
+  background: url(Img/ellipse\ 3.png) center no-repeat;
+  background-size: 200px;
+  position: absolute;
+  background-position-x: 15px;
+}
+
+.Logo-nav h6 {
+  line-height: 70%;
+  text-indent: 50px;
+  font-size: 10px;
+}
+.Logo-nav h1 {
+  line-height: 70%;
+}
+.Logo-nav .letters {
+  line-height: 0%;
+  word-spacing: -20px;
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.Logo-nav h3 {
+  line-height: 70%;
+  text-indent: 50px;
+}
+
+.Logo-nav .firstLetter {
+  line-height: 0%;
+  letter-spacing: -10px;
+  font-size: 60px;
+  vertical-align: -5px;
+}
+
+.container {
+  padding-left: 15%;
+  padding-right: 5%;
+}
+
+.imgTitle-nav {
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  top: 0;
+}
+.imgTitle-nav-item {
+  width: 60%;
+  z-index: -1;
+}
+/*Navy-salt*/
+#Navy-salt .Navy-salt-text {
+  margin-right: 25%;
+}
+
+/*Voyager*/
+#Voyager {
+  margin-top: 20%;
+}
+.img-Background {
+  z-index: -1;
+}
+#Voyager .container-fluid {
+  padding-left: 0;
+}
+#Voyager .frame {
+  position: absolute;
+  width: auto;
+  margin-top: 7%;
+}
+
+#Voyager .img-frame {
+  width: 40%;
+  margin-left: 50%;
+}
+
+#Voyager .Title {
+  position: absolute;
+  margin-left: 38%;
+  width: auto;
+  margin-top: 10%;
+  text-align: end;
+}
+
+#Voyager .Description {
+  margin-left: 45%;
+  margin-top: -30%;
+  width: 50%;
+}
+
+/*Дрифтер*/
+#Drifter {
+  margin-top: 20%;
+}
+#Drifter .Title {
+  position: absolute;
+  margin-right: 35%;
+  width: auto;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.drifter-text {
+  text-align: center;
+  padding-left: 10%;
+}
+.img-Drifter {
+  width: 60%;
+  z-index: -1;
+  margin-top: -15%;
+  float: right;
+}
+#Drifter .frame {
+  position: absolute;
+  width: auto;
+  margin-top: 7%;
+}
+
+#Drifter .img-frame {
+  width: 40%;
+  margin-left: 13%;
+}
+#Drifter .Description {
+  width: 50%;
+  margin-top: -33%;
+  margin-left: 10px;
+}
+
+/*collection*/
+#Collection {
+  margin-top: 20%;
+  width: 100%;
+}
+
+#Collection h6 {
+  text-indent: 17%;
+}
+
+.collection-img-1 {
+  width: auto;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+#Collection .Description {
+  width: 30%;
+  margin-left: 45%;
+}
+#Collection .Description h5 {
+  font-size: 10px;
+}
+
+.collection-img-2 {
+  width: auto;
+  margin-top: 100%;
+  margin-left: -20%;
+}
+
+.collection-img-3 {
+  width: 50%;
+}
+
+.collection-title {
+  margin-top: 30%;
+}
+
+/*Footer*/
+.footer-top {
+  background-color: #ededed;
+  color: #fff;
+  border-bottom: 1px solid #222222;
+  padding: 60px 0 0 0;
+}
+.footer-top .footer-info h3 {
+  font-size: 28px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: contents;
+}
+.footer-top .footer-info p {
+  font-size: 14px;
+  font-weight: 24px;
+  margin-bottom: 0;
+}
+.footer-top .social-links a {
+  width: 36px;
+  height: 36px;
+  background-color: #acaaaa;
+
+  margin-right: 4px;
+  border-radius: 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+}
+
+.footer-top .social-links :hover {
+  background: #ffc451;
+}
